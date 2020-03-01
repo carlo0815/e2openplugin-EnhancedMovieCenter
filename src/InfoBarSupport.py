@@ -100,7 +100,9 @@ class InfoBarSupport(	InfoBarBase, \
 			InfoBarPlugins, \
 			InfoBarNumberZap, \
 			InfoBarPiP, \
-			InfoBarEPG ):
+			InfoBarHdmi, \
+			InfoBarEPG, \
+			InfoBarHdmi):
 
 	def __init__(self):
 		self.allowPiP = True         # both are needed here !
@@ -113,7 +115,7 @@ class InfoBarSupport(	InfoBarBase, \
 				InfoBarSubtitleSupport, \
 				InfoBarTeletextPlugin, InfoBarServiceErrorPopupSupport, InfoBarExtensions, InfoBarNotifications, \
 				InfoBarPlugins, InfoBarNumberZap, \
-				InfoBarPiP, InfoBarEPG:
+				InfoBarPiP, InfoBarEPG, InfoBarHdmi:
 				#InfoBarCueSheetSupport
 				#InfoBarMoviePlayerSummarySupport
 			x.__init__(self)
